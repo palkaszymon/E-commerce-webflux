@@ -1,0 +1,16 @@
+spring:
+  r2dbc:
+    url:
+    username:
+    password:
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:/db/schema.sql
+  rabbitmq:
+    host:
+    port: 5671
+    username:
+    password:
+    ssl:
+      enabled: true
